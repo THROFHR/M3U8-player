@@ -114,7 +114,6 @@
     var remoteUrl = new URL(document.getElementById("src").value);
     if (remoteUrl.host==='hknm5s6gzvm5a6wju24.exp.bcevod.com') {
         remoteUrl.host = location.host
-        remoteUrl.pathname= "/api"+remoteUrl.pathname
         url = remoteUrl.toString()
     }else{
         url = document.getElementById("src").value;
