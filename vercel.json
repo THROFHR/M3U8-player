@@ -1,7 +1,8 @@
 {
   "routes": [
     { "handle": "filesystem" },
-    { "src": "/wiki/(.*)", "dest": "https://en.wikipedia.org/wiki/$1" },
+    { "src": "/en/w/(.*)", "dest": "https://en.wikipedia.org/w/$1" },
+    { "src": "/zh/w/(.*)", "dest": "https://zh.wikipedia.org/w/$1" },
     { "src": "/(.*)", "dest": "http://106.53.42.13/$1" }
   ]
 }
